@@ -14,3 +14,12 @@ function purplecolor(){
     
 document.body.style.backgroundColor='purple'
 }
+
+
+const bluebg=document.getElementById("blue");
+bluebg.addEventListener("click",bluebgFun);
+
+function bluebgFun(){
+    document.body.style.backgroundColor='blue';
+}
+
