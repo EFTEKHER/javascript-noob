@@ -26,6 +26,7 @@
     
 
    totalMoney+=depositMoney;
+   
         
    despoiteTotal.innerText= depositeValue;
    cons=depositeValue;
