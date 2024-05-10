@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Bootstrap Example</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS */
+    .red-text {
+      color: red;
+    }
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+    .hover-scale:hover {
+      transform: scale(1.3);
+    }
+    .hover-scalediv {
+      transition: transform 0.3s ease;
+    }
+    .hover-scalediv:hover {
+      transform: scale(1.1);
+    }
+    .background-h1 {
+      background-color: lightblue;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      margin-top: 20px;
+    }
+    .btn-group {
+      margin-bottom: 20px;
+    }
+    .navbar {
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .dropdown-menu {
+      border-radius: 5px;
+    }
+    .input-group {
+      margin-bottom: 20px;
+    }
+    h2 {
+      background-color: #f8f9fa;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 0 5px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .scroll {
+      margin: 2px;
+      padding: 6px;
+      width: 90%;
+      overflow-y: hidden;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-25 bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Beautiful Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Buttons -->
+<div class="container scroll ">
+  <div class="btn-group d-flex justify-content-center" role="group" aria-label="Button group">
+    <button type="button" class="btn btn-primary rounded hover-scale">Primary</button>
+    <button type="button" class=" d-none d-sm-inline-block d-md-none btn btn-primary rounded hover-scale mx-2">Primary</button>
+    <button type="button" class="btn btn-secondary mx-2 rounded hover-scale">Secondary</button>
+    <button type="button" class="btn btn-success mx-2 rounded hover-scale">Success</button>
+    <button type="button" class="btn btn-danger mx-2 rounded hover-scale">Danger</button>
+    <button type="button" class="btn btn-warning mx-2 rounded hover-scale">Warning</button>
+    <button type="button" class="btn btn-info rounded hover-scale">Info</button>
+  </div>
+</div>
+
+<!-- Paragraph -->
+<p class="red-text container">This is a red paragraph text.</p>
+
+<!-- h1 with background color -->
+<div class="container">
+  <div class="background-h1">
+    <h1>Background h1</h1>
+  </
