@@ -25,7 +25,7 @@ const Details = props => {
    }
    </div>
    <button className="bg-violet-700 w-full  flex rounded-lg p-2  ">
-   Add to cart
+   checkout
    <MdOutlineShoppingCartCheckout size={20} className="mt-1 "/>
    
    </button>

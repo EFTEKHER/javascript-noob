@@ -38,6 +38,8 @@ const Header = () => {
           <li className="block lg:inline-block                      hover:bg-pink-800 text-xl    px-2 rounded-sm hover:text-white">
             <a href="#">policy</a>
           </li>
+
+        
         </ul>
       </div>
     </nav>
