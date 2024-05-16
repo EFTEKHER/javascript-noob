@@ -3,7 +3,7 @@ import React from 'react'
 
 const Details = props => {
     const products=props.cart;
-    console.log(products);
+
     let totalprice=0;
     let productname=[];
     for(let product of products)
